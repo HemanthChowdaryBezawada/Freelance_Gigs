@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+tensorflow
+numpy
+pillow
+scikit-learn
+twilio
+sqlalchemy

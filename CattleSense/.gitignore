@@ -1,0 +1,42 @@
+# Dependencies
+app/node_modules/
+backend/__pycache__/
+ml_pipeline/__pycache__/
+*.pyc
+
+# Dataset (Large - already trained)
+ml_pipeline/data/
+
+# Environment
+.env
+*.env.local
+backend/.venv/
+venv/
+
+# Build outputs
+app/.expo/
+app/dist/
+*.apk
+*.aab
+
+# Database (local dev)
+backend/*.db
+backend/cattle_sense.db
+
+# Uploaded files (regenerated at runtime)
+backend/uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Expo
+app/.expo-shared/
+
+# Keep model files (NOT ignored)
+# ml_pipeline/models/cattle_model.keras
+# ml_pipeline/models/classes.json
