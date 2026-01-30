@@ -1,0 +1,12 @@
+-- Add Employer Columns to Profiles table
+ALTER TABLE public.profiles
+ADD COLUMN IF NOT EXISTS company_name TEXT,
+ADD COLUMN IF NOT EXISTS tagline TEXT,
+ADD COLUMN IF NOT EXISTS website TEXT,
+ADD COLUMN IF NOT EXISTS company_location TEXT,
+ADD COLUMN IF NOT EXISTS company_size TEXT,
+ADD COLUMN IF NOT EXISTS industry TEXT,
+ADD COLUMN IF NOT EXISTS founded_year TEXT,
+ADD COLUMN IF NOT EXISTS about_company TEXT,
+ADD COLUMN IF NOT EXISTS benefits TEXT[],
+ADD COLUMN IF NOT EXISTS culture TEXT[];
